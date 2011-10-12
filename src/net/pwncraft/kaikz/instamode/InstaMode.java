@@ -2,7 +2,6 @@ package net.pwncraft.kaikz.instamode;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.command.Command;
