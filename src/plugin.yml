@@ -3,7 +3,7 @@ author: Kaikz
 website: http://pwncraft.net/
 description: Instantly change your own gamemode. 
 main: net.pwncraft.kaikz.instamode.InstaMode
-version: 1.0.1
+version: 1.0.2
 commands:
   mode:
     description: Changes your gamemode to the input mode.
