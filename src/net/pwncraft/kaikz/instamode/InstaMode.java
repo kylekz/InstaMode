@@ -29,19 +29,19 @@ public class InstaMode extends JavaPlugin {
         Player player = (Player)sender;
         
         if (commandLabel.equals("mode")) {
-        	if (args.length < 0) {
+            if (args.length < 0) {
                 player.sendMessage(ChatColor.RED + "You didn't give us a game mode!");
                 return true;
             } else if (args.length == 1) {
             	if ((args[0].equalsIgnoreCase("survival") || args[0].equalsIgnoreCase("s")) && (player.hasPermission("*") || player.hasPermission("instamode.*") || player.hasPermission("instamode.survival"))) {
-            		if (player.getGameMode() == GameMode.SURVIVAL) {
-            			player.sendMessage(ChatColor.RED + "You're already in Survival mode!");
-            			return true;
-            		} else {
-            			player.setGameMode(GameMode.SURVIVAL);
-            			player.sendMessage(ChatColor.GREEN + "Set to Survival Mode!");
-            			return true;
-            		}
+                    if (player.getGameMode() == GameMode.SURVIVAL) {
+            		player.sendMessage(ChatColor.RED + "You're already in Survival mode!");
+            		return true;
+                    } else {
+            		player.setGameMode(GameMode.SURVIVAL);
+            		player.sendMessage(ChatColor.GREEN + "Set to Survival Mode!");
+            		return true;
+                    }
             	} else if ((args[0].equalsIgnoreCase("creative") || args[0].equalsIgnoreCase("c")) && (player.hasPermission("*") || player.hasPermission("instamode.*") || player.hasPermission("instamode.creative"))) {
                     if (player.getGameMode() == GameMode.CREATIVE) {
             		player.sendMessage(ChatColor.RED + "You're already in Creative mode!");
@@ -54,6 +54,6 @@ public class InstaMode extends JavaPlugin {
             	}
             }
         }
-		return false;
+        return false;
     }
 }
