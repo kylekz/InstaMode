@@ -1,4 +1,4 @@
-package net.pwncraft.kaikz.instamode;
+package me.freeplaynz.instamode;
 
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;

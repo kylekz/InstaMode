@@ -1,8 +1,8 @@
 name: InstaMode
 author: Kaikz
-website: http://pwncraft.net/
+website: http://freeplaynz.me
 description: Instantly change your own gamemode. 
-main: net.pwncraft.kaikz.instamode.InstaMode
+main: me.freeplaynz.instamode.InstaMode
 version: 1.0.2
 commands:
   mode:
