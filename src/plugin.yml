@@ -1,9 +1,9 @@
 name: InstaMode
-author: Kaikz
+author: Kaikz, greizgh
 website: http://freeplaynz.me
 description: Instantly change your own gamemode. 
 main: me.freeplaynz.instamode.InstaMode
-version: 1.0.2
+version: 1.0.2int
 commands:
   mode:
     description: Changes your gamemode to the input mode.
